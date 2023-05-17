@@ -74,6 +74,22 @@
 }
 
 
+/* *****************************************
+* Social Bar
+* *****************************************/
+.social-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+
+    border: 1px solid;
+    border-color: currentColor;
+    border-radius: 50%;
+}
+
 
 /* **********************************************************************************
 ? RESPONSIVE
