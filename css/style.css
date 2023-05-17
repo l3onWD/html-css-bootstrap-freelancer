@@ -15,16 +15,32 @@
 /* *****************************************
 ! Debug
 * *****************************************/
-.db.border {
+.debug .db-border {
     border: 2px dashed #000;
 }
 
-.db-h-1x {
+.debug .db-h-1x {
     min-height: 50px;
 }
 
-.db-h-2x {
+.debug .db-h-2x {
     min-height: 400px;
+}
+
+.debug .container-fluid {
+    border: 2px dashed purple;
+}
+
+.debug .container {
+    border: 2px dashed red;
+}
+
+.debug .row {
+    border: 2px dashed blue;
+}
+
+.debug [class^="col"] {
+    border: 2px dashed yellow;
 }
 
 
