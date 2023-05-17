@@ -91,6 +91,36 @@
 }
 
 
+/* *****************************************
+* Separator
+* *****************************************/
+.sep {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.sep::after,
+.sep::before {
+    content: '';
+    width: 10%;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+}
+
+.sep::after {
+    right: 50%;
+    transform: translateX(-1em);
+}
+
+.sep::before {
+    left: 50%;
+    transform: translateX(1em);
+}
+
+
 /* **********************************************************************************
 ? RESPONSIVE
 * ***********************************************************************************/
