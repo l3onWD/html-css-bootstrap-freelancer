@@ -62,14 +62,24 @@
 
 /* MD */
 @media screen and (min-width: 768px) {
+
     /* *****************************************
-    * Jumbotron
+    * Generics
     * *****************************************/
-    #main-jumbotron h1 {
+    h1 {
         font-size: 3.5rem;
     }
 
+    h2 {
+        font-size: 3rem;
+    }
+
+    
+    /* *****************************************
+    * Jumbotron
+    * *****************************************/
     #main-jumbotron p {
         font-size: 1.5rem;
     }
+
 }
