@@ -1,14 +1,33 @@
 /* *****************************************
 * Variables
 * *****************************************/
-
-
+:root {
+    /* palette */
+    --col-darkblue: #2C3E50;
+    --col-blue: #3A546D;
+    --col-green: #1ABC9C;
+}
 
 
 /* *****************************************
-* Generics
+* Utils
 * *****************************************/
+/* Colors */
+.text-green {
+    color: var(--col-green);
+}
 
+.bg-darkblue {
+    background-color: var(--col-darkblue);
+}
+
+.bg-blue {
+    background-color: var(--col-blue);
+}
+
+.bg-green {
+    background-color: var(--col-green);
+}
 
 
 /* *****************************************
