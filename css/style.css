@@ -2,32 +2,25 @@
 * Variables
 * *****************************************/
 :root {
-    /* palette */
-    --col-darkblue: #2C3E50;
-    --col-blue: #3A546D;
+    /* Palette */
+    --col-dark: #2c3e50;
+    --col-secondary: #3a546d;
     --col-green: #1ABC9C;
+
+    /* Custom Bootstrap Colors */
+    --bs-dark-rgb: 44, 62, 80;
+    --bs-secondary-rgb: 58, 84, 109;
+    --bs-success-rgb: 26, 188, 156;
 }
 
-
-/* *****************************************
-* Utils
-* *****************************************/
-/* Colors */
-.text-green {
-    color: var(--col-green);
+/* Custom Bootstrap Buttons */
+.btn-success {
+    --bs-btn-bg: #1ABC9C;
+    --bs-btn-border-color: #1ABC9C;
+    --bs-btn-disabled-bg: #1ABC9C;
+    --bs-btn-disabled-border-color: #1ABC9C;
 }
 
-.bg-darkblue {
-    background-color: var(--col-darkblue);
-}
-
-.bg-blue {
-    background-color: var(--col-blue);
-}
-
-.bg-green {
-    background-color: var(--col-green);
-}
 
 
 /* *****************************************
