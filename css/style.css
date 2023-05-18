@@ -114,7 +114,7 @@
 .sep::after,
 .sep::before {
     content: '';
-    width: 12vw;
+    width: 10%;
     max-width: 150px;
     height: 4px;
     background-color: currentColor;
