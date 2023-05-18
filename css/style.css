@@ -75,6 +75,30 @@
 
 
 /* *****************************************
+* Contact
+* *****************************************/
+#contact .form-control {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+#contact .form-control::placeholder {
+    color: #000;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+#contact .form-control:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+#contact textarea {
+    height: 200px;
+}
+
+
+/* *****************************************
 * Social Bar
 * *****************************************/
 .social-bar a {
